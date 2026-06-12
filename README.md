@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/harsha29292/confgate/main/assets/logo.png" alt="confgate" width="80" />
 
-# confgate
+
+# Confgate
 
 **Confidence-gated decisions for LLM agent outputs.**
 
