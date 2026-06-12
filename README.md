@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/harsha/confgate/main/assets/logo.png" alt="confgate" width="80" />
+<img src="https://raw.githubusercontent.com/harsha29292/confgate/main/assets/logo.png" alt="confgate" width="80" />
 
 # confgate
 
@@ -10,7 +10,7 @@ Agents abstain when they're not sure enough. Findings reach developers only when
 
 [![PyPI version](https://img.shields.io/pypi/v/confgate?color=1A56DB&labelColor=1E293B&style=flat-square)](https://pypi.org/project/confgate/)
 [![Python](https://img.shields.io/pypi/pyversions/confgate?color=1A56DB&labelColor=1E293B&style=flat-square)](https://pypi.org/project/confgate/)
-[![CI](https://img.shields.io/github/actions/workflow/status/harsha/confgate/ci.yml?color=166534&labelColor=1E293B&style=flat-square&label=CI)](https://github.com/harsha/confgate/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/harsha29292/confgate/ci.yml?color=166534&labelColor=1E293B&style=flat-square&label=CI)](https://github.com/harsha29292/confgate/actions)
 [![License](https://img.shields.io/pypi/l/confgate?color=64748B&labelColor=1E293B&style=flat-square)](LICENSE)
 [![Zero dependencies](https://img.shields.io/badge/dependencies-zero-7C3AED?labelColor=1E293B&style=flat-square)](#)
 
@@ -254,7 +254,7 @@ Raises `ValueError` at decoration time if threshold is out of range.
 ## Development
 
 ```bash
-git clone https://github.com/harsha/confgate
+git clone https://github.com/harsha29292/confgate
 cd confgate
 pip install -e ".[dev]"
 pytest -v
@@ -281,6 +281,6 @@ MIT — see [LICENSE](LICENSE).
 
 <div align="center">
 
-Built by [Harsha](https://github.com/harsha) · [PyPI](https://pypi.org/project/confgate/) · [Issues](https://github.com/harsha/confgate/issues)
+Built by [Sri Harsha](https://github.com/harsha) · [PyPI](https://pypi.org/project/confgate/) · [Issues](https://github.com/harsha29292/confgate/issues)
 
 </div>
