@@ -20,9 +20,9 @@ Agents abstain when they're not sure enough. Findings reach developers only when
 
 ## The problem
 
-LLM agents are noisy. A security agent that flags "possible SQL injection — confidence 0.4" wastes a developer's time more than it helps. Enough false positives and the tool gets disabled entirely.
+LLM agents are noisy. A security agent that flags "possible SQL injection  confidence 0.4" wastes a developer's time more than it helps. Enough false positives and the tool gets disabled entirely.
 
-This is **false positive fatigue** — and it's why most automated LLM-based review tools fail in practice.
+This is **false positive fatigue**  and it's why most automated LLM-based review tools fail in practice.
 
 ## What confgate does
 
@@ -78,7 +78,7 @@ class Decision:
     abstained:  bool        # set by @gate, never by you
 ```
 
-`Decision` validates itself on construction — `confidence` must be in `[0.0, 1.0]`, `severity` must be one of the four valid values.
+`Decision` validates itself on construction  `confidence` must be in `[0.0, 1.0]`, `severity` must be one of the four valid values.
 
 ### `@gate`
 
@@ -90,10 +90,10 @@ def my_agent(diff: str) -> Decision:
     ...
 ```
 
-- **Above threshold** — returned as-is, `abstained=False`
-- **Below threshold** — returned with `abstained=True`
-- **Equal to threshold** — passes. A threshold is a minimum bar, not a ceiling.
-- **Wrong return type** — raises `InvalidDecisionError` immediately
+- **Above threshold**  returned as-is, `abstained=False`
+- **Below threshold**  returned with `abstained=True`
+- **Equal to threshold** passes. A threshold is a minimum bar, not a ceiling.
+- **Wrong return type**  raises `InvalidDecisionError` immediately
 
 ---
 
